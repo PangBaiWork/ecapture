@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 	"strings"
-	
+
 	"github.com/cilium/ebpf"
 	manager "github.com/gojue/ebpfmanager"
 	"golang.org/x/sys/unix"
