@@ -51,7 +51,7 @@ func (m *MOpenSSLProbe) setupManagersText() error {
 				EbpfFuncName:     "probe_entry_SSL_write",
 				AttachToFuncName: "SSL_write",
 				UprobeOffset:     0x3A8614,
-				BinaryPath:       binaryPath,
+				BinaryPath:       "/data/app/~~NC1zIKn1GK_SDosQqDu8Yg==/com.smile.gifmaker-ikTQHbnsyPWRopnVOxT4pA==/lib/arm64/libaegon.so",
 			},
 			{
 				Section:          "uretprobe/SSL_write",
@@ -64,7 +64,7 @@ func (m *MOpenSSLProbe) setupManagersText() error {
 				EbpfFuncName:     "probe_entry_SSL_read",
 				AttachToFuncName: "SSL_read",
 				UprobeOffset:     0x3A8334,
-				BinaryPath:       binaryPath,
+				BinaryPath:       "/data/app/~~NC1zIKn1GK_SDosQqDu8Yg==/com.smile.gifmaker-ikTQHbnsyPWRopnVOxT4pA==/lib/arm64/libaegon.so",
 			},
 			{
 				Section:          "uretprobe/SSL_read",
