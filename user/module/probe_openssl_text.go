@@ -50,7 +50,7 @@ func (m *MOpenSSLProbe) setupManagersText() error {
 				Section:          "uprobe/SSL_write",
 				EbpfFuncName:     "probe_entry_SSL_write",
 				AttachToFuncName: "SSL_write",
-				UprobeOffset:      0x3A8614,
+				UprobeOffset:     0x3A8614,
 				BinaryPath:       binaryPath,
 			},
 			{
